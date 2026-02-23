@@ -1,8 +1,33 @@
-# Node modules
+# ======================
+# ROOT
+# ======================
 node_modules/
+.env
 
-# Logs
-*.log
-
-# Build output
+# ======================
+# FRONTEND
+# ======================
+frontend/node_modules/
 frontend/build/
+
+# ======================
+# BACKEND
+# ======================
+backend/node_modules/
+
+# ======================
+# TEST
+# ======================
+coverage/
+
+# ======================
+# LOG FILES
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# SYSTEM FILES
+# ======================
+.DS_Store
